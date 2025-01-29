@@ -32,6 +32,7 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+       System.out.println("Copyright Skliarevskyi Andrii 124803");
         List<String> names = Arrays.asList("Jan", "Anna", "Piotr", "Kasia", "Marek", "Zosia"); // Список імен
         Set<Player> players = new HashSet<>(); // Набір гравців (уникнення дублікатів)
         Map<String, Integer> results = new HashMap<>(); // Мапа для зберігання результатів
